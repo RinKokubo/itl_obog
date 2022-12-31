@@ -1,0 +1,16 @@
+current directory: /Users/kokuborin/Documents/3年後期/AI・データサイエンスツールⅡ/itl_obog/itl_obog_app/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+/Users/kokuborin/.rbenv/versions/3.1.1/bin/ruby -I /Users/kokuborin/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20221231-99110-aen9rj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kokuborin/Documents/3年後期/AI・データサイエンスツールⅡ/itl_obog/itl_obog_app/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/kokuborin/Documents/3年後期/AI・データサイエンスツールⅡ/itl_obog/itl_obog_app/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/kokuborin/Documents/3年後期/AI・データサイエンスツールⅡ/itl_obog/itl_obog_app/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20221231-99110-i94u3y/debug
