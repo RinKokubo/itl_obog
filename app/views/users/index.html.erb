@@ -1,0 +1,24 @@
+<h1>iTL OBOG名簿</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Year</th></th>
+      <th>Zemi</th>
+      <th>Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.year %></td>
+        <td><%= user.zemi %></td>
+        <td><%= user.work %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
